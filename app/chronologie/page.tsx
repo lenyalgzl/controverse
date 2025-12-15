@@ -3,111 +3,71 @@ import { Badge } from "@/components/ui/badge"
 
 const evenements = [
   {
-    annee: "1960-1970",
-    titre: "Naissance de l'Art Informatique",
+    annee: "42 000 av. J.-C.",
+    titre: "Premières œuvres d'art",
     description:
-      "Les premiers artistes (Frieder Nake, Georg Nees, Vera Molnár) utilisent des ordinateurs pour créer des œuvres génératives algorithmiques. L'art computationnel émerge comme pratique expérimentale.",
+      "Apparition des premières peintures rupestres (grottes de Nerja/Lascaux), marquant le début de l'art par la main de l'homme.",
+    type: "Origines",
+  },
+  {
+    annee: "1950",
+    titre: "Les Bases Théoriques de l'IA",
+    description:
+      "Alan Turing pose la question \"Les machines peuvent-elles penser ?\" et le premier modèle mathématique de neurone artificiel est conçu.",
     type: "Fondation",
   },
   {
-    annee: "1986",
-    titre: "Harold Cohen & AARON",
+    annee: "1973",
+    titre: "Le Premier Peintre Robot",
     description:
-      "Le programme AARON créé par Harold Cohen produit des peintures autonomes, posant pour la première fois la question de l'auteur en art généré par machine.",
+      "Harold Cohen développe AARON, un programme capable de dessiner de manière autonome des formes originales sur du papier.",
     type: "Pionnier",
   },
   {
-    annee: "2006",
-    titre: "Deep Learning Renaissance",
-    description:
-      "Geoffrey Hinton et son équipe relancent les réseaux de neurones profonds, ouvrant la voie aux avancées modernes de l'IA.",
-    type: "Technique",
-  },
-  {
     annee: "2014",
-    titre: "Invention des GANs",
+    titre: "L'Invention des GANs",
     description:
-      "Ian Goodfellow présente les Generative Adversarial Networks (GANs), révolutionnant la génération d'images par IA avec un réalisme inédit.",
+      "Ian Goodfellow crée les \"Réseaux Antagonistes Génératifs\", permettant aux IA de créer des images ultra-réalistes en s'autocorrigeant.",
     type: "Innovation Majeure",
   },
   {
-    annee: "2015",
-    titre: "DeepDream de Google",
-    description:
-      "Google Research publie DeepDream, créant un engouement public pour les images psychédéliques générées par IA et popularisant le concept.",
-    type: "Popularisation",
-  },
-  {
     annee: "2018",
-    titre: "Portrait d'Edmond de Belamy",
+    titre: "Première Enchère Historique",
     description:
-      "Le collectif Obvious vend chez Christie's une œuvre générée par IA pour 432 500$, légitimant l'art IA sur le marché traditionnel et créant la controverse.",
+      "Le portrait \"Edmond de Belamy\", généré par le collectif Obvious, est vendu 432 500 $ chez Christie's.",
     type: "Événement Symbolique",
   },
   {
     annee: "2021",
-    titre: "DALL-E et CLIP d'OpenAI",
+    titre: "DALL-E et le \"Text-to-Image\"",
     description:
-      "OpenAI présente DALL-E, permettant de générer des images à partir de descriptions textuelles. Un tournant dans l'accessibilité de l'art génératif.",
+      "OpenAI lance DALL-E, capable de générer des images complexes à partir d'une simple description textuelle.",
     type: "Innovation Majeure",
   },
   {
     annee: "2022",
-    titre: "Explosion Grand Public",
+    titre: "Victoire de Midjourney",
     description:
-      "Lancement de Midjourney, Stable Diffusion (open-source), et DALL-E 2. L'art IA devient accessible au grand public. Les artistes lancent des campagnes de protestation.",
-    type: "Rupture",
-  },
-  {
-    annee: "2022",
-    titre: "Victoire aux Colorado State Fair",
-    description:
-      "Jason Allen remporte un concours d'art avec une œuvre générée par Midjourney, déclenchant un débat intense sur la légitimité de l'art IA dans les compétitions.",
+      "L'œuvre \"Théâtre d'Opéra Spatial\", générée par IA, remporte la première place à la foire d'État du Colorado, devançant les artistes humains.",
     type: "Controverse",
   },
   {
-    annee: "2023",
-    titre: "Procès Juridiques Massifs",
+    annee: "2025",
+    titre: "Le Premier N°1 Sans Humain",
     description:
-      "Des artistes poursuivent en justice Stability AI, Midjourney et DeviantArt pour violation de droits d'auteur. Les législateurs intensifient leurs réflexions sur la régulation.",
-    type: "Juridique",
-  },
-  {
-    annee: "2023",
-    titre: "AI Act Européen",
-    description:
-      "L'Union Européenne adopte l'AI Act, premier cadre réglementaire majeur encadrant l'intelligence artificielle, incluant des dispositions sur les droits d'auteur.",
-    type: "Régulation",
-  },
-  {
-    annee: "2024",
-    titre: "Modèles Vidéo (Sora, Runway)",
-    description:
-      "L'IA générative s'étend à la vidéo avec des outils comme Sora (OpenAI) et Runway Gen-2, élargissant encore le champ de la controverse au cinéma et à l'animation.",
-    type: "Expansion",
-  },
-  {
-    annee: "2024-2025",
-    titre: "Débat Actuel",
-    description:
-      "Le débat s'intensifie entre régulation stricte et innovation libre. Recherche de modèles éthiques d'entraînement, rémunération des artistes, et définition du statut juridique des œuvres IA.",
-    type: "En Cours",
+      "Le titre country \"Walk My Walk\" du groupe virtuel Breaking Rust (généré à 100 % par IA) atteint le sommet du Billboard Country Digital Sales. Pour la première fois, le public achète massivement une musique dont il sait qu'elle n'a aucune origine humaine, validant l'IA comme une \"star\" commerciale légitime.",
+    type: "Rupture",
   },
 ]
 
 const typeColors: Record<string, string> = {
+  Origines: "bg-chart-1",
   Fondation: "bg-chart-3",
   Pionnier: "bg-chart-4",
-  Technique: "bg-chart-2",
   "Innovation Majeure": "bg-accent",
-  Popularisation: "bg-chart-5",
   "Événement Symbolique": "bg-primary",
-  Rupture: "bg-destructive",
   Controverse: "bg-destructive",
-  Juridique: "bg-chart-4",
-  Régulation: "bg-chart-2",
-  Expansion: "bg-accent",
-  "En Cours": "bg-accent",
+  Rupture: "bg-destructive",
 }
 
 export default function ChronologiePage() {

@@ -102,15 +102,15 @@ export default function Home() {
 
           <div className="mt-12 grid gap-6 sm:grid-cols-3">
             <Card className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">4</div>
+              <div className="text-3xl font-bold text-accent mb-2">5</div>
               <div className="text-sm font-medium">Groupes d'acteurs</div>
             </Card>
             <Card className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">8</div>
+              <div className="text-3xl font-bold text-accent mb-2">?</div>
               <div className="text-sm font-medium">Arguments analysés</div>
             </Card>
             <Card className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">2</div>
+              <div className="text-3xl font-bold text-accent mb-2">?</div>
               <div className="text-sm font-medium">Articles éditoriaux</div>
             </Card>
           </div>

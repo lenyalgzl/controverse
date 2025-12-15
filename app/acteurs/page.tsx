@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Users, Code, Palette, Scale } from "lucide-react"
+import { Users, Code, Palette, Scale, BookOpen } from "lucide-react"
 
 const acteurs = [
   {
@@ -47,6 +47,21 @@ const acteurs = [
       "Reconnaissance institutionnelle",
     ],
     color: "text-accent",
+  },
+  {
+    icon: BookOpen,
+    nom: "Nikoleta Kerinska & La Recherche",
+    role: "Experte Interviewée & Enseignante-Chercheuse",
+    description:
+      "Artiste-chercheuse qui oppose l'IA dans le design (utile pour la productivité) à l'IA dans l'art pur (risque de superficialité). Elle définit les IA génératives comme des \"compilateurs statistiques\" produisant une \"moyenne esthétique\". Pour elle, l'artiste ne doit plus exécuter mais décider, en gardant son jugement critique pour ne pas dépendre de la machine.",
+    position: "Position analytique",
+    enjeux: [
+      "Primauté du jugement critique",
+      "Apprentissage préalable du manuel",
+      "Valorisation du \"fait main\"",
+      "Refus de la \"jungle juridique\" (vol de données)",
+    ],
+    color: "text-indigo-500",
   },
   {
     icon: Scale,
@@ -124,10 +139,7 @@ export default function ActeursPage() {
         <Card className="mt-12 p-8 bg-accent/5 border-accent/20">
           <h3 className="text-xl font-bold mb-4">Tensions et Alliances</h3>
           <p className="text-muted-foreground leading-relaxed">
-            Ces quatre groupes entretiennent des relations complexes. Les artistes traditionnels s'opposent souvent aux
-            développeurs et prompters, tandis que les législateurs tentent de médier entre innovation et protection.
-            Certains artistes collaborent avec l'IA, brouillant les frontières. Les tech giants négocient avec les
-            régulateurs pour préserver leur liberté d'innovation. Ce jeu d'acteurs façonne l'avenir de la création.
+            Le débat se structure autour d'une fracture majeure. D'un côté, une alliance objective s'est formée entre les Géants de la Tech et les Artistes Prompters, unis par la volonté d'accélérer l'innovation et de démocratiser la création sans entraves. De l'autre, les Artistes Traditionnels font pression sur les Législateurs pour obtenir un cadre protecteur contre l'exploitation de leurs données. Ce jeu d'influence est instable : le juridique peine à rattraper la vitesse technologique, créant une zone grise (la fameuse « jungle »). Au milieu, la Recherche (via notre experte N. Kerinska) tente d'élever le débat : au-delà de la guerre économique, la véritable tension se joue entre la facilité de l'automatisation et la préservation de la pensée critique humaine.
           </p>
         </Card>
       </div>
