@@ -22,18 +22,15 @@ export default function CarteMentalePage() {
         {/* Cadre de l'image */}
         <div className="bg-card border rounded-xl shadow-sm overflow-hidden">
           
-          {/* Zone d'affichage de l'image avec fond contrasté */}
           <div className="p-2 md:p-6 bg-muted/20 flex justify-center">
             <figure className="relative w-full">
               <img 
-                src="mindmap.png" 
+                src="/mindmap.png" 
                 alt="Carte mentale de la controverse" 
                 className="w-full h-auto object-contain rounded-lg shadow-sm border bg-background max-h-[85vh] mx-auto" 
               />
             </figure>
           </div>
-
-          {/* Bas de carte avec lien de téléchargement */}
           <div className="p-4 bg-card border-t flex justify-center items-center">
             <p className="text-sm text-muted-foreground flex items-center gap-2">
               <span>L'image ne s'affiche pas correctement ?</span>
