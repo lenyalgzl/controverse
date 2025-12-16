@@ -90,7 +90,7 @@ export default function ActeursPage() {
           </Badge>
           <h1 className="mb-4 text-5xl font-bold">Les Acteurs de la Controverse</h1>
           <p className="mx-auto max-w-3xl text-lg text-muted-foreground leading-relaxed text-balance">
-            Le débat sur l'IA dans l'art mobilise quatre groupes aux intérêts divergents. Chacun défend une vision
+            Le débat sur l'IA dans l'art mobilise cinq groupes aux intérêts divergents. Chacun défend une vision
             distincte de l'avenir de la création artistique.
           </p>
         </div>
