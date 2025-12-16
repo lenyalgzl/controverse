@@ -38,7 +38,7 @@ export default function CarteMentalePage() {
             <p className="text-sm text-muted-foreground flex items-center gap-2">
               <span>L'image ne s'affiche pas correctement ?</span>
               <a 
-                href="mindmap.png" 
+                href="/mindmap.png" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="inline-flex items-center gap-1 font-medium text-primary hover:underline hover:text-primary/80 transition-colors"
