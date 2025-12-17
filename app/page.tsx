@@ -106,12 +106,12 @@ export default function Home() {
               <div className="text-sm font-medium">Groupes d'acteurs</div>
             </Card>
             <Card className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">?</div>
+              <div className="text-3xl font-bold text-accent mb-2">8</div>
               <div className="text-sm font-medium">Arguments analysés</div>
             </Card>
             <Card className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">?</div>
-              <div className="text-sm font-medium">Articles éditoriaux</div>
+              <div className="text-3xl font-bold text-accent mb-2">1</div>
+              <div className="text-sm font-medium">Article éditorial</div>
             </Card>
           </div>
         </div>
